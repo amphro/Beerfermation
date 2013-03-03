@@ -1,0 +1,6 @@
+- !!models.User
+    email:      amphro@gmail.com
+    firstName:  Thomas
+    lastName:   Dvornik
+    password:   test1234
+...

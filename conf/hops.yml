@@ -1,0 +1,222 @@
+#Information from http://beeradvocate.com/beer/101/hops
+#Averaged numbers have the same value for both low and high. Unknown numbers are -1. THese should be fixed as we go.
+#TODO We should go through this and modify the descriptions in our own language or validate the information from other sources
+
+- !!models.HopDefinition
+    name:         Ahtanum
+    description:  Ahtanum is an aroma-type cultivar bred by Yakima Chief Ranches. Its name is derived from the area near Yakima where the first hop farm was established in 1869 by Charles Carpenter.
+    alphaLow:     5.7
+    alphaHigh:    6.3
+    betaLow:      5.0
+    betaHigh:     6.5
+- !!models.HopDefinition
+    name:         Amarillo
+    description:  Amarillo is an aroma-type cultivar of recent origin, discovered and introduced by Virgil Gamache Farms Inc.
+    alphaLow:     8
+    alphaHigh:    11
+    betaLow:      6
+    betaHigh:     7
+- !!models.HopDefinition
+    name:         Cascade
+    description:  Cascade is an aroma-type cultivar which originated as the first commercial hop from the USDA-ARS breeding program. It was bred in 1956 but not released for cultivation until 1972. It reached its peak in 1975 when it produced 13.3% of the total American crop. It was obtained by crossing an English Fuggle with a male plant, which originated from the Russian variety Serebrianka with a Fuggle male plant. <br />A very popular U.S. variety, with a moderate bitterness level and fragrant, flowery aroma. Cascade is often used in highly hopped West Coast ales that have a citrus-floral hop character.
+    alphaLow:     4.5
+    alphaHigh:    6.0
+    betaLow:      5.0
+    betaHigh:     7.0
+- !!models.HopDefinition
+    name:         Centennial
+    description:  Centennial is an aroma-type cultivar, bred in 1974 and released in 1990. The genetic composition is 3/4 Brewers Gold, 3/32 Fuggle, 1/16 East Kent Golding, 1/32 Bavarian and 1/16 unknown. <br />A relatively new hop on the market, this hop used to be called CFJ90. Described by some as a "Super Cascade" and we tend to agree, but it's not nearly as "citrusy". Some even use it for aroma as well as bittering. Bitterness is quite clean and can have floral notes depending on the boil time.
+    alphaLow:     9.5
+    alphaHigh:    11.5
+    betaLow:      4.0
+    betaHigh:     5.0
+- !!models.HopDefinition
+    name:         Chinook
+    description:  Chinook is a bittering variety with aroma characteristics released in May, 1985. It was bred by crossing a Petham Golding with the USDA 63012 male. <br />A high alpha acid hop with a wonderful herbal, almost smoky character when used as an aromatic during the last few minutes of the boil when dry hoping. Excellent for hopping American-style Pale Ales, especially those brewed to higher gravities.
+    alphaLow:     12.0
+    alphaHigh:    14.0
+    betaLow:      3.0
+    betaHigh:     4.0
+- !!models.HopDefinition
+    name:         Columbus
+    description:  This high alpha variety has a pungent aroma and clean bittering. Excellent for bitter ales and American IPA styles, and can be dramatic when dry hopped.
+    alphaLow:     12
+    alphaHigh:    12
+    betaLow:      -1
+    betaHigh:     -1
+- !!models.HopDefinition
+    name:         Cluster
+    description:  Cluster originated from mass selection of the Cluster hop, which is an old American cultivar. It is suggested that they arose from hybridization of varieties, imported by Dutch and English settlers and indigenous male hops.
+    alphaLow:     5.5
+    alphaHigh:    8.5
+    betaLow:      4.5
+    betaHigh:     5.5
+- !!models.HopDefinition
+    name:         Crystal
+    description:  Crystal is a triploid aroma-type cultivar, released for commercial production in 1993. It originates from a seedling selection (No. 8309-37) made at Corvallis in 1983 between the colchicine - induced tetraploid 'Hallertau mf' (USDA 21397) and the diploid male downy mildew resistant aroma hop, USDA 21381M. Crystal is a half-sister of Mt. Hood and Liberty.
+    alphaLow:     4.0
+    alphaHigh:    6.0
+    betaLow:      5.0
+    betaHigh:     6.7
+- !!models.HopDefinition
+    name:         Fuggle
+    description:  Fuggle is an aroma-type cultivar selected in England as a chance seedling in 1861. It reached its peak in the U.K. in 1949 when 78% of the English crops were grown as Fuggle. It is also marketed as Styrian (Savinja) Golding in the Slovenian Republic. In the USA it is grown in Oregon and Washington State. <br />Superb in English-style ales, and lends a unique character not imparted by the more subtle American-grown Fuggles.
+    alphaLow:     3.8
+    alphaHigh:    5.5
+    betaLow:      1.5
+    betaHigh:     2.0
+- !!models.HopDefinition
+    name:         Galena
+    description:  Galena is a bittering-type cultivar which was bred in 1968 from Brewers Gold and an open pollination, i.e. an unknown male plant. It was released for cultivation in 1978. <br />Galena is the most "mellow" hop of the high-alpha varieties, and has replaced Cluster as the most widely grown US hop. The bitterness is clean and well balanced. Great general purpose bittering hop.
+    alphaLow:     12.5
+    alphaHigh:    14.0
+    betaLow:      7.5
+    betaHigh:     9.0
+- !!models.HopDefinition
+    name:         Golding
+    description:  Golding is a group of aroma-type cultivars originating in England. Over the decades, the group has been changed and widened. Mostly they have been named after villages in East Kent, (Petham, Rothersham, Canterbury, Eastwell) or hop farmers, who grew them (Amos's Early Bird, Cobbs). <br />English Goldings grown in East Kent, are a premium hop, called East Kent Golding and should not be confused with U.K. Goldings, which are grown in other parts such as Kent, Worcestershire, Hampshire and Herefordshire. The cultivar grown in the USA (Oregon and Washington State) is a Canterbury Golding. <br />The premier English aroma hop. Superb in English-style ales, and lend a unique character to fine lagers as well. This hop has a unique spicy aroma and refined flavor.
+    alphaLow:     4.0
+    alphaHigh:    6.0
+    betaLow:      2.0
+    betaHigh:     3.0
+- !!models.HopDefinition
+    name:         Hallertau mf
+    description:  Hallertau mf (Mittelfrueh) is an aroma-type cultivar which originated in Germany as a land - race hop. The original Hallertau mf in Germany has been replaced with other Hallertau types with similar quality characteristics. The name indicates that it is a middle to early ripening cultivar. <br />If you are looking to brew an authentic European-style lager, this is the best choice. Mild spicy flavor and aroma.
+    alphaLow:     3.5
+    alphaHigh:    5.5
+    betaLow:      3.5
+    betaHigh:     5.5
+- !!models.HopDefinition
+    name:         Horizon
+    description:  Horizon is a high alpha-aroma cultivar, a diploid seedling result of a cross made in 1970 between the USDA 65009 female plant (with Brewers Gold and Early Green lineage) and the male plant 64035M. It was released as a commercial variety in 1998.
+    alphaLow:     10.2
+    alphaHigh:    16.5
+    betaLow:      6.5
+    betaHigh:     8.5
+- !!models.HopDefinition
+    name:         Liberty
+    description:  Liberty is a triploid aroma-type cultivar, the result in 1983 of the colchicine induced tetrapcoid female cultivar Hallertau mf and a downy mildew resistant male, USDA 64035M. It is a half-sister to Ultra, Mt. Hood and Crystal.
+    alphaLow:     3.5
+    alphaHigh:    4.5
+    betaLow:      3.0
+    betaHigh:     3.5
+- !!models.HopDefinition
+    name:         Magnum
+    description:  Magnum is a bittering/aroma type cultivar, bred in 1980 at Huell, the German Hop Research Instititute, from the American variety Galena and the German male 75/5/3.
+    alphaLow:     10.0
+    alphaHigh:    12.6
+    betaLow:      5.0
+    betaHigh:     7.0
+- !!models.HopDefinition
+    name:         Mount Hood
+    description:  Mt. Hood is a triploid aroma-type cultivar, the 1983 result of a cross between the colchicine - induced tetraploid female Hallertau mf (USDA 21397) and the USDA 19058M, male plant. It is a half-sister to Ultra, Liberty and Crystal. <br ?>An aromatic variety derived from Hallertau with a refined, spicy aroma and clean bittering. A good choice for lagers.
+    alphaLow:     4.0
+    alphaHigh:    6.0
+    betaLow:      5.0
+    betaHigh:     7.5
+- !!models.HopDefinition
+    name:         Northern Brewer
+    description:  Northern Brewer is a bittering-type cultivar, bred in 1934 in England from a Canterbury Golding female plant and the male plant OB21. Northern Brewer has been used in the breeding process of many newer varieties. This cultivar is grown in England, Belgium, Germany and the USA. </br >A strong fragrant hop with a rich rough-hewn flavor and aroma, ideal for steam-style beers and ales. Northern Brewer has a unique mint-like evergreen flavor.
+    alphaLow:     8.0
+    alphaHigh:    10.0
+    betaLow:      3.0
+    betaHigh:     5.0
+- !!models.HopDefinition
+    name:         Nugget
+    description:  Nugget is a bittering-type cultivar, bred in 1970 from the USDA 65009 female plant and USDA 63015M. The lineage of Nugget is 5/8 Brewers Gold, 1/8 Early Green, 1/16 Canterbury Golding, 1/32 Bavarian and 5/32 unknown. <br />Nugget is a great bittering hop with a heavy herbal aroma.
+    alphaLow:     12.5
+    alphaHigh:    14.5
+    betaLow:      4.0
+    betaHigh:     6.0
+- !!models.HopDefinition
+    name:         Perle
+    description:  Perle is an aroma-type cultivar, bred in 1978 in Germany from Northern Brewer. It is grown in Germany, Belgium and the U. S. A. <br />Perle is a newer variety, originally from Germany but now grown quite successfully in the US. Perle is a medium alpha hop with a very clean, almost minty bitterness and pleasant aroma.
+    alphaLow:     7.0
+    alphaHigh:    9.5
+    betaLow:      4.0
+    betaHigh:     5.0
+- !!models.HopDefinition
+    name:         Saaz
+    description:  Saaz is the traditional noble hop for true pilsner beer. Saaz is famous for its spicy, clean bitterness.
+    alphaLow:     3.0
+    alphaHigh:    3.0
+    betaLow:      -1
+    betaHigh:     -1
+- !!models.HopDefinition
+    name:         Satus
+    description:  Satus is a bittering-type cultivar of recent origin.
+    alphaLow:     12.5
+    alphaHigh:    14.0
+    betaLow:      8.5
+    betaHigh:     9.0
+- !!models.HopDefinition
+    name:         Simcoe
+    description:  Simcoe is a bittering/aroma type cultivar bred by Yakima Chief Ranches.
+    alphaLow:     12.0
+    alphaHigh:    14.0
+    betaLow:      4.0
+    betaHigh:     5.0
+- !!models.HopDefinition
+    name:         Spalt Select
+    description:  Spalt Select is an aroma type cultivar, bred in Germany and released for cultivation in the late 1980's. It is grown in Germany in the Hallertau and Spalt areas and in the U.S.A. in Washington State.
+    alphaLow:     3.5
+    alphaHigh:    5.5
+    betaLow:      3.0
+    betaHigh:     4.5
+- !!models.HopDefinition
+    name:         Sterling
+    description:  Sterling is an aroma cultivar, a diploid seedling made in 1990 with a 21522 female plant and a 21361 male plant. Its parentage is 1/2 Saazer, 1/4 Cascade, 1/8 64035M (unknown German aroma X open pollination),1/16 Brewers Gold, 1/32 Early Green, and 1/32 unknown.
+    alphaLow:     4.5
+    alphaHigh:    5.0
+    betaLow:      5.0
+    betaHigh:     6.0
+- !!models.HopDefinition
+    name:         Tettnang
+    description:  Tettnang is an aroma-type cultivar which originated in the Tettnang hop growing area of Germany as a land-race hop. It is grown in the U.S.A. in Oregon and Washington State. <br />The original noble hop from the Tettnang region of Germany, ideal for your finest lagers and wheat beers. This limited availability hop has a fine, pure aroma, that is not present in United States grown Tettnanger.
+    alphaLow:     4.0
+    alphaHigh:    5.0
+    betaLow:      3.5
+    betaHigh:     4.5
+- !!models.HopDefinition
+    name:         Tomahawk
+    description:  Tomahawk is a bittering hop of recent origin, bred by Charles Zimmermann. It is the first commercially grown 'Super Alpha' variety. In 1998 it contributed to 11% of the USA hop crop.
+    alphaLow:     14.0
+    alphaHigh:    18.0
+    betaLow:      4.5
+    betaHigh:     5.8
+- !!models.HopDefinition
+    name:         Ultra
+    description:  Ultra is a triploid aroma-type cultivar, originated in 1983 from a cross between the colchicine-induced tetraploid Hallertau mf (USDA 21397) and the diploid Saazer-derived male genotype (USDA 21237m). Ultra is the half-sister to Mt. Hood, Liberty and Crystal. Its genetic composition is 4/6 Hallertau mf, 1/6 Saazer, and 1/6 unknown. This cultivar was released for commercial production in March, 1995.
+    alphaLow:     4.5
+    alphaHigh:    5.0
+    betaLow:      3.6
+    betaHigh:     4.7
+- !!models.HopDefinition
+    name:         US Fuggle
+    description:  A mild-flavored English-style hop grown in Oregon, with a fragrant wood-like aroma. Milder in character than English Fuggles. This hop imparts a smooth, well rounded hop character. 
+    alphaLow:     3.9
+    alphaHigh:    3.9
+    betaLow:      -1
+    betaHigh:     -1
+- !!models.HopDefinition
+    name:         Vanguard
+    description:  Vanguard is a diploid seedling made in 1982 between USDA 21285, which has Hallertau mf parentage and USDA 64037m. It was released for cultivation in 1997.
+    alphaLow:     5.0
+    alphaHigh:    6.0
+    betaLow:      5.0
+    betaHigh:     7.0
+- !!models.HopDefinition
+    name:         Warrior
+    description:  Warrior is a bittering hop of a recent origin, bred by Yakima Chief Ranches.
+    alphaLow:     15.0
+    alphaHigh:    17.0
+    betaLow:      4.5
+    betaHigh:     5.5
+- !!models.HopDefinition
+    name:         Willamette
+    description:  Willamette is a triploid aroma-type hop, which originated in the mid 1970's and is a seedling of Fuggle. It is a very popular aroma hop, contributing in 1998 to 18% of the total USA hop crop. <br />A variation on English Fuggle hops grown in Oregon and Washington. Willamette has a fragrant spicy woody aroma. An excellent American aromatic hops for ales and lagers.
+    alphaLow:     4.0
+    alphaHigh:    6.0
+    betaLow:      3.5
+    betaHigh:     4.5
+...

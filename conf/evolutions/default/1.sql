@@ -5,7 +5,7 @@
 
 create table hop_definition (
   name                      varchar(255) not null,
-  description               varchar(255),
+  description               LONGTEXT,
   alpha_low                 double,
   alpha_high                double,
   beta_low                  double,

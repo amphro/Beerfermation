@@ -1,5 +1,6 @@
 package models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -13,6 +14,7 @@ public class HopDefinition extends Model {
 	
 	@Id
 	public String name;
+	@Column(columnDefinition="LONGTEXT")
 	public String description;
 	public double alphaLow;
 	public double alphaHigh;

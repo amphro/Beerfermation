@@ -1,7 +1,26 @@
-@(message: String)
+@(hops: List[HopDefinition])
 
-@main("Welcome to Play 2.1") {
-    
-    <h1>@message</h1>
-    
+@main("Beerfermation") {
+
+    <header>
+        <hgroup>
+            <h1>Hops</h1>
+        </hgroup>
+    </header>
+
+    <article  class="hops">
+        @for(hop <- hops) {
+            <div class="hop"><!--  data-folder-id="project.id"> -->
+                <header>
+                    <h3>@hop.name</h3>
+                </header>
+                <p>@hop.description</p>
+                <div class="acid">
+                	<div class="alpha">@hop.alphaLow-@hop.alphaHigh%</div>
+                	<div class="beta">@hop.betaLow-@hop.betaHigh%</div>
+                </div>
+            </div>
+        }
+    </article>
+
 }
