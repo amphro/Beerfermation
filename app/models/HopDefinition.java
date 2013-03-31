@@ -54,5 +54,9 @@ public class HopDefinition extends Model {
 		public double getHigh() {
 			return this.high;
 		}
+		
+		public double getMid() {
+			return (this.high + this.low) / 2;
+		}
 	}
 }

@@ -5,6 +5,8 @@ import models.HopDefinition;
 
 import org.junit.Test;
 
+import controllers.Application;
+
 import play.mvc.Content;
 
 
@@ -24,7 +26,7 @@ public class ApplicationTest {
     
     @Test
     public void renderTemplate() {
-        Content html = views.html.index.render(HopDefinition.find.all());
+        Content html = views.html.index.render(Application.getUser(), HopDefinition.find.all());
         assertThat(contentType(html)).isEqualTo("text/html");
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
