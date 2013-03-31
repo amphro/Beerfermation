@@ -2,25 +2,8 @@
 
 @main("Beerfermation") {
 
-    <header>
-        <hgroup>
-            <h1>Hops</h1>
-        </hgroup>
-    </header>
+    <h1>Welcome</h1>
 
-    <article  class="hops">
-        @for(hop <- hops) {
-            <div class="hop"><!--  data-folder-id="project.id"> -->
-                <header>
-                    <h3>@hop.name</h3>
-                </header>
-                <p>@hop.description</p>
-                <div class="acid">
-                	<div class="alpha">@hop.alphaLow-@hop.alphaHigh%</div>
-                	<div class="beta">@hop.betaLow-@hop.betaHigh%</div>
-                </div>
-            </div>
-        }
-    </article>
+    <p> I should think of something to say here...</p>
 
 }

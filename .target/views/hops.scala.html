@@ -1,0 +1,22 @@
+@(hops: List[HopDefinition])
+
+@main("Beerfermation") {
+
+    <h1>Hops</h1>
+
+    <article  class="hops">
+        @for(hop <- hops) {
+            <div class="hop"><!--  data-folder-id="project.id"> -->
+                <header>
+                    <h3>@hop.name</h3>
+                </header>
+                <p>@hop.description</p>
+                <blockquote class="acid">
+                	<small class="alpha"><b>Alpha:</b> @hop.alphaLow-@hop.alphaHigh%</small>
+                	<small class="beta"><b>Beta:</b> @hop.betaLow-@hop.betaHigh%</small>
+                </blockquote>
+            </div>
+        }
+    </article>
+
+}
