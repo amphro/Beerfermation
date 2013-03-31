@@ -1,4 +1,4 @@
-@(title: String)(content: Html)
+@(title: String, user: User)(content: Html)
 
 <!DOCTYPE html>
 
@@ -26,13 +26,19 @@
 	          <div class="nav-collapse collapse">
 	            <ul class="nav">
 	              <li id="hops-link"><a href="/hops">Hops</a></li>
+	              <li><a href="/brew">Brew</a></li>
+	              
 	            </ul>
+	            @if(user != null) {
+	            	<div class="pull-right"><span class="muted" style="padding-right: 10px">@user.firstName @user.lastName <small>(@user.email)</small></span><a class="btn" href="@routes.Application.logout()">Logout</a></div>
+	          	}
 	          </div><!--/.nav-collapse -->
+	          
 	        </div>
+	        
 	      </div>
 	    </div>
 	    <div class="container">
-	    <br/><br/><br/>
 			@content
 	    </div>
     </body>

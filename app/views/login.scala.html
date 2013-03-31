@@ -1,13 +1,26 @@
-<html>
-    <head>
-        <title>Zentasks</title>
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
-        <link rel="stylesheet" type="text/css" media="screen" href="@routes.Assets.at("stylesheets/login.css")">
-    </head>
-    <body>
-        <header>
-            <a href="@routes.Application.index" id="logo"><span>Zen</span>tasks</a>
-        </header>
-    
-    </body>
-</html>
+@(form: Form[Application.Login])
+@main("Beerfermation", null) {
+
+    @helper.form(routes.Application.authenticate, 'class -> "form-signin") {
+	   <h2 class="form-signin-heading">Please sign in</h2>
+		@if(flash.contains("success")) {
+		    <p class="text-success">
+		        @flash.get("success")
+		    </p>
+		}
+		@if(form.hasGlobalErrors) {
+		    <p class="text-error">
+		        @form.globalError.message
+		    </p>
+		}
+	   <p>
+	       <input type="email" class="input-block-level" name="email" placeholder="Email" value="@form("email").value">
+	   </p>
+	   <p>
+	       <input type="password" class="input-block-level" name="password" placeholder="Password">
+	   </p>
+	   <p>
+	       <button type="submit" class="btn btn-large btn-primary">Sign in</button>
+	   </p>
+	}
+}

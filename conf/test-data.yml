@@ -1,0 +1,6 @@
+- !!models.User
+    email:      bob@example.com
+    firstName:  bob
+    lastName:   example
+    password:   secret
+...
